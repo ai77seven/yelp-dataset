@@ -37,6 +37,8 @@ var myscript = document.createElement('script');
 myscript.src = './static/map.js';
 document.getElementsByTagName('head')[0].appendChild(myscript);
 
+// initMap();
+
 export default {
   name: 'visual',
   data () {

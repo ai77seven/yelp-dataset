@@ -2,16 +2,16 @@ import Vue from 'vue'
 import App from './App'
 
 /* eslint-disable no-new */
-import Hello from './components/Hello'
+// import Hello from './components/Hello'
 import Visual from './components/Visual'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: App },
+  { path: '/', component: Visual },
   { path: '/visual', component: Visual },
-  { path: '/hello', component: Hello }
+  { path: '/help', component: App }
 ]
 
 const router = new VueRouter({
